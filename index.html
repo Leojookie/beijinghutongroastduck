@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beijing Hutong Roast Duck | Wangfujing Branch</title>
+    <meta name="description" content="Authentic Beijing Roast Duck in the heart of Wangfujing. Experience traditional wood-fired flavors in a classic Hutong setting.">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Beijing Hutong Roast Duck (Wangfujing Branch)",
+      "alternateName": "北京胡同烤鸭（王府井店）",
+      "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?q=80&w=1200",
+      "url": "https://yourusername.github.io/duck/",
+      "telephone": "+8618400878945",
+      "servesCuisine": "Beijing Roast Duck",
+      "priceRange": "￥￥",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "No. 33A, Dongdan San Tiao",
+        "addressLocality": "Dongcheng District",
+        "addressRegion": "Beijing",
+        "postalCode": "100005",
+        "addressCountry": "CN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.9135,
+        "longitude": 116.4172
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "10:00",
+          "closes": "15:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "17:00",
+          "closes": "22:00"
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary-red: #8b0000;
+            --gold: #d4af37;
+            --dark: #1a1a1a;
+            --light: #f9f9f9;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: var(--dark);
+            background-color: var(--light);
+        }
+
+        header {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), 
+                        url('https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?q=80&w=1600') center/cover no-repeat;
+            height: 75vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.7);
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.4rem;
+            max-width: 700px;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+            font-weight: 300;
+        }
+
+        .section {
+            padding: 80px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-title h2 {
+            font-size: 2.5rem;
+            color: var(--primary-red);
+            margin-bottom: 10px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: var(--white);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .card-info {
+            padding: 25px;
+        }
+
+        .card-info h3 {
+            margin-top: 0;
+            color: var(--primary-red);
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--gold);
+            color: var(--dark);
+            padding: 15px 45px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 30px;
+            margin-top: 25px;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            font-size: 1rem;
+        }
+
+        .cta-button:hover {
+            background-color: #f2cc4c;
+            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+            transform: scale(1.05);
+        }
+
+        .experience-bg {
+            background-color: #f4eee8;
+            padding: 80px 0;
+        }
+
+        .contact-box {
+            background-color: var(--primary-red);
+            color: white;
+            padding: 60px 40px;
+            border-radius: 20px;
+            text-align: center;
+            margin-top: 40px;
+            box-shadow: 0 10px 30px rgba(139, 0, 0, 0.2);
+        }
+
+        .address-text {
+            font-size: 1.3rem;
+            margin: 25px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 50px;
+            font-size: 0.9rem;
+            color: #777;
+            background: #eee;
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 2.5rem; }
+            header p { font-size: 1.1rem; }
+            .section { padding: 50px 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Beijing Hutong Roast Duck</h1>
+        <p>Expertly Carved, Wood-Fired Excellence Since 2008</p>
+        <a href="#contact" class="cta-button">Reserve Your Table</a>
+    </header>
+
+    <section class="section">
+        <div class="section-title">
+            <h2>The Art of the Duck</h2>
+            <p>From the jujube wood oven to your table</p>
+        </div>
+        
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?q=80&w=800" alt="Whole Golden Roast Duck">
+                <div class="card-info">
+                    <h3>Golden Skin</h3>
+                    <p>Our ducks are hand-selected and roasted until the skin is perfectly thin, crisp, and shimmering.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?q=80&w=800" alt="Chef Carving Duck">
+                <div class="card-info">
+                    <h3>Expert Slicing</h3>
+                    <p>Our master chefs slice the duck at your tableside, ensuring every piece has the ideal ratio of skin to meat.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1525124119932-9df73e206013?q=80&w=800" alt="Duck Wrap Scene">
+                <div class="card-info">
+                    <h3>Traditional Wrap</h3>
+                    <p>Fold your succulent slices into our warm, handmade pancakes with our secret sweet bean sauce.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="experience-bg">
+        <section class="section">
+            <div class="section-title">
+                <h2>The Hutong Setting</h2>
+                <p>Authentic dining in a historic courtyard atmosphere</p>
+            </div>
+
+            <div class="grid">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=800" alt="Traditional Dining Hall">
+                    <div class="card-info">
+                        <h3>Heritage Decor</h3>
+                        <p>Dine amidst Ming-style furniture and traditional Beijing architecture in our Wangfujing courtyard.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1528605248644-14dd04cb220d?q=80&w=800" alt="Group Dining Scene">
+                    <div class="card-info">
+                        <h3>Family & Friends</h3>
+                        <p>The perfect location for large groups and international travelers looking for a genuine Beijing feast.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="section" id="contact">
+        <div class="contact-box">
+            <h2>Find Us in Wangfujing</h2>
+            <p class="address-text">
+                <strong>Address:</strong><br>
+                No. 33A, Dongdan San Tiao, Dongcheng District, Beijing
+            </p>
+            <p>
+                <strong>Business Hours:</strong><br>
+                Lunch: 10:00 AM - 3:00 PM<br>
+                Dinner: 5:00 PM - 10:00 PM
+            </p>
+            <div style="margin: 30px 0;">
+                <p>Call for Reservations:</p>
+                <a href="tel:+8618400878945" style="color: var(--gold); font-size: 1.8rem; text-decoration: none; font-weight: bold;">
+                    +86 184 0087 8945
+                </a>
+            </div>
+            <p style="font-style: italic; opacity: 0.9;">* Near Wangfujing Pedestrian Street & Subway Line 1.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Beijing Hutong Roast Duck (Wangfujing Branch).</p>
+        <p>A heritage culinary experience in a classic Beijing Hutong.</p>
+    </footer>
+
+</body>
+</html>
